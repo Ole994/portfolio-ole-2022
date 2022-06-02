@@ -1,20 +1,27 @@
-@import "intro";
-@import "portfolio";
-@import "work";
-@import "testimonials";
 @import "contact";
+@import "aboutMe";
+@import "works";
+@import "resume";
+@import "nav";
+@import "profile";
 
 * {
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
   list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.app {
-  background-color: blue;
-  height: 100vh;
+span,
+p {
+  font-family: "Inconsolata", monospace;
+  color: white;
 }
-.sections {
-  background-color: red;
+
+h1,
+h2,
+h3 {
+  font-family: "Outfit", sans-serif;
+  color: white;
 }

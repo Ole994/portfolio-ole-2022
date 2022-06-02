@@ -4,28 +4,17 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-//pages
-import TopBar from "./components/navigation/TopBar";
-import Home from "./pages/Home";
-import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
-import Works from "./components/works/Works";
 import "./sass/main.scss";
-import Intro from "./components/intro/Intro";
-import Contact from "./components/contact/Contact";
+import Profile from "./components/home/Profile";
+import Nav from "./components/nav/Nav";
+//pages
 
 const App = () => {
   return (
     <>
-      <div className="app">
-        <TopBar />
-        <div className="sections">
-          <Intro />
-          <Portfolio />
-          <Works />
-          <Testimonials />
-          <Contact />
-        </div>
+      <div>
+        <Nav />
+        <Profile />
       </div>
     </>
   );
