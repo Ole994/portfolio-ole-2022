@@ -1,0 +1,22 @@
+.works {
+  h1 {
+    text-align: center;
+  }
+}
+.imageContainerOne {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 30vh;
+}
+
+.cardOne {
+  //   border: 1px solid black;
+  height: 70vh;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.work-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px;
+  padding: 50px;
+  width: 100%;
+}
