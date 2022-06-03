@@ -1,0 +1,14 @@
+.aboutMeWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 200px;
+
+  width: 100%;
+}
+
+.aboutMeImg {
+  width: 100%;
+}
+
+@media screen and (min-width: 956px) {
+}

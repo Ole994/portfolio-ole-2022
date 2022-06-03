@@ -9,6 +9,7 @@ import Profile from "./components/home/Profile";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Works from "./components/works/Works";
+import AboutMe from "./components/aboutMe/AboutMe";
 
 //pages
 
@@ -21,6 +22,7 @@ const App = () => {
         <Profile />
         <Works />
         <Footer />
+        <AboutMe />
       </div>
     </>
   );

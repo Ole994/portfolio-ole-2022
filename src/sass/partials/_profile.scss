@@ -1,4 +1,45 @@
 .profileContainer {
   border: 1px solid black;
   height: 50vh;
+  background-image: linear-gradient(
+      rgba(108, 169, 124, 0.111),
+      rgba(0, 0, 0, 0.353)
+    ),
+    url(../../images/profile-black.jpeg);
+
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.headerProfile {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  h1 {
+    color: white;
+  }
+}
+
+.imgProfileBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileText {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  p {
+    color: #0cc9ab;
+    width: 70%;
+  }
+}
+.profileImg {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 900px) {
 }

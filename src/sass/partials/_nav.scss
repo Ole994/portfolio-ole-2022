@@ -1,6 +1,9 @@
 body {
   position: relative;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 li {
   margin-top: 30px;
@@ -15,7 +18,8 @@ li {
   left: 0px;
   width: 100px;
   height: 100vh;
-  background: #2ca5ecc4;
+  // background: #2ca5ecc4;
+  background: #0cc9a9d2;
   transition: 0.5s;
   overflow: hidden;
   z-index: 9;
@@ -42,7 +46,7 @@ li {
   display: block;
   display: flex;
   text-decoration: none;
-  color: rgb(14, 10, 10);
+  color: rgb(255, 255, 255);
 }
 
 .navigation ul li a .icon {
@@ -64,6 +68,7 @@ li {
   line-height: 60px;
   text-align: start;
   white-space: nowrap;
+  color: white;
 }
 
 .title {

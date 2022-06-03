@@ -17,6 +17,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 80px;
-  padding: 50px;
+
+  width: 90%;
+  margin: auto;
+}
+
+.workImages {
   width: 100%;
+  height: 100%;
 }

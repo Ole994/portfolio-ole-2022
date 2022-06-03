@@ -1,28 +1,34 @@
-import React from "react";
+import firstWork from "../../images/screenshot-1.jpg";
 
 const Works = () => {
   return (
     <>
-      <div className="works">
-        <h1> Work</h1>
+      <div className="works" id="worksId">
+        <h1> Mine prosjekter</h1>
 
         <div className="work-wrap">
           <div className="workContainerOne">
-            <h2>project 1</h2>
+            <h2>Prosjekt for en hifi butikk</h2>
             <div className="cardOne">
-              <div className="imageContainerOne"></div>
+              <div className="imageContainerOne">
+                <img src={firstWork} alt="" className="workImages" />
+              </div>
             </div>
           </div>
           <div className="workContainerOne">
-            <h2>project 2</h2>
+            <h2>skoleoppgave</h2>
             <div className="cardOne">
-              <div className="imageContainerOne"></div>
+              <div className="imageContainerOne">
+                <img src={firstWork} alt="" className="workImages" />
+              </div>
             </div>
           </div>
           <div className="workContainerOne">
-            <h2>project 3</h2>
+            <h2>Hotell booking side</h2>
             <div className="cardOne">
-              <div className="imageContainerOne"></div>
+              <div className="imageContainerOne">
+                <img src={firstWork} alt="" className="workImages" />
+              </div>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { BsFillPersonFill, BsInstagram } from "react-icons/bs";
+import { MdWorkspaces } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 
 const Nav = () => {
@@ -15,28 +16,37 @@ const Nav = () => {
       <div className="navigation">
         <ul>
           <li>
-            <Link to="/">
+            <a href="#homeId">
               <span className="icon">
                 <AiFillHome></AiFillHome>
               </span>
               <span className="title">Home</span>
-            </Link>
+            </a>
+          </li>
+
+          <li>
+            <a href="#worksId">
+              <span className="icon">
+                <MdWorkspaces />
+              </span>
+              <span className="title">Works</span>
+            </a>
           </li>
           <li>
-            <Link to="/">
+            <a href="#aboutMeId">
               <span className="icon">
-                <BsFillPersonFill></BsFillPersonFill>
+                <BsFillPersonFill />
               </span>
               <span className="title">About</span>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="/">
+            <a href="#contactId">
               <span className="icon">
                 <AiOutlineMail />
               </span>
-              <span className="title">contact</span>
-            </Link>
+              <span className="title">Contact</span>
+            </a>
           </li>
           <li>
             <Link to="/">
