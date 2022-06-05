@@ -9,7 +9,8 @@ const Profile = () => {
         </div>
         <div className="headerProfile">
           {" "}
-          <h1>Hello I am Ole</h1>
+          <h1 className="">FRONT-END </h1>
+          <span className="">DEVELOPER</span>
         </div>
 
         <div className="profileText">

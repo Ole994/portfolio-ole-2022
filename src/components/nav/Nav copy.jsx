@@ -10,8 +10,6 @@ import { BsFillPersonFill, BsInstagram } from "react-icons/bs";
 import { MdWorkspaces } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 
-//Mobile
-
 const Nav = () => {
   return (
     <>

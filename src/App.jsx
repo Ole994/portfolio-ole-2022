@@ -19,10 +19,12 @@ const App = () => {
       <div>
         {" "}
         <Nav />
-        <Profile />
-        <Works />
-        <Footer />
-        <AboutMe />
+        <div className="gridMain">
+          <Profile />
+          <Works />
+          <AboutMe />
+          <Footer />
+        </div>
       </div>
     </>
   );

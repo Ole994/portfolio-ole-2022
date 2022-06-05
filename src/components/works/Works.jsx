@@ -1,4 +1,4 @@
-import firstWork from "../../images/screenshot-1.jpg";
+import firstWork from "../../images/bergen.jpg";
 
 const Works = () => {
   return (
