@@ -1,16 +1,20 @@
-import firstWork from "../../images/bergen.jpg";
+import firstWork from "../../images/high-end.jpg";
+import thirdWork from "../../images/bergen.jpg";
 import Button from "../button/Button";
 import { AiFillGithub } from "react-icons/ai";
 
 const Works = () => {
   return (
     <>
-      <div className="works" id="worksId">
+      {" "}
+      <div className="headerWork">
         <h1> Mine prosjekter</h1>
-
+      </div>
+      <div className="works" id="worksId">
         <div className="work-wrap">
+          {" "}
           <div className="workContainerOne">
-            <h2>Hifi-Club</h2>
+            <h2>High-end Club</h2>
             <div className="cardOne">
               <div className="imageContainerOne">
                 <img src={firstWork} alt="" className="workImages" />
@@ -36,7 +40,7 @@ const Works = () => {
             <h2>skoleoppgave</h2>
             <div className="cardOne">
               <div className="imageContainerOne">
-                <img src={firstWork} alt="" className="workImages" />
+                <img src={thirdWork} alt="" className="workImages" />
               </div>
               <div className="WorkDescription">
                 <p>
@@ -56,7 +60,7 @@ const Works = () => {
             <div className="cardOne">
               {""}
               <div className="imageContainerOne">
-                <img src={firstWork} alt="" className="workImages" />
+                <img src={thirdWork} alt="" className="workImages" />
               </div>
               {""}
 

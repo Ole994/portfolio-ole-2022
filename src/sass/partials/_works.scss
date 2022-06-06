@@ -1,7 +1,11 @@
 .works {
-  margin-top: 50px;
+  background-color: white;
   h1 {
     text-align: center;
+    color: white;
+  }
+  h2 {
+    color: black;
   }
 }
 
@@ -9,14 +13,25 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 80px;
-
   width: 90%;
   margin: auto;
+  margin-top: 20px;
+}
+
+.headerWork {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+  }
 }
 .cardOne {
   //   border: 1px solid black;
   height: 82vh;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: white;
 }
 .imageContainerOne {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
