@@ -5,9 +5,7 @@ const Button = () => {
   return (
     <>
       <div className="button-container">
-        <a href="olekorvald.no" className="cross-fade">
-          GitHub
-        </a>
+        <span className="cross-fade">GitHub</span>
       </div>
     </>
   );

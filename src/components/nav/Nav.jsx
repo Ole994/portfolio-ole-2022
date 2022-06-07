@@ -10,28 +10,31 @@ import { BsFillPersonFill, BsInstagram } from "react-icons/bs";
 import { MdWorkspaces } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 
+import { GiHamburgerMenu } from "react-icons/gi";
+
 //Mobile
 
 const Nav = () => {
   return (
     <>
-      <div className="navigation">
+      {" "}
+      <div className="navigation-mobile">
         <ul>
+          {" "}
           <li>
             <a href="#homeId">
               <span className="icon">
                 <AiFillHome></AiFillHome>
               </span>
-              <span className="title">Home</span>
+              <span className="title">Fremside</span>
             </a>
           </li>
-
           <li>
             <a href="#worksId">
               <span className="icon">
                 <MdWorkspaces />
               </span>
-              <span className="title">Works</span>
+              <span className="title">Mine prosjekter</span>
             </a>
           </li>
           <li>
@@ -39,7 +42,7 @@ const Nav = () => {
               <span className="icon">
                 <BsFillPersonFill />
               </span>
-              <span className="title">About</span>
+              <span className="title">Om meg</span>
             </a>
           </li>
           <li>
@@ -51,12 +54,12 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <Link to="/">
+            <a href="https://www.facebook.com/ole994/">
               <span className="icon">
                 <FaFacebook />
               </span>
-              <span className="title">Facebook</span>
-            </Link>
+              <span className="title"> Facebook</span>
+            </a>
           </li>
           <li>
             <Link to="/">
@@ -81,6 +84,76 @@ const Nav = () => {
               </span>
               <span className="title">Instagram</span>
             </Link>
+          </li>
+        </ul>
+      </div>{" "}
+      {/* desktop */}
+      <div className="navigation">
+        <ul>
+          <li>
+            <a href="#homeId">
+              <span className="icon">
+                <AiFillHome></AiFillHome>
+              </span>
+              <span className="title">Fremside</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#worksId">
+              <span className="icon">
+                <MdWorkspaces />
+              </span>
+              <span className="title">Mitt arbeid</span>
+            </a>
+          </li>
+          <li>
+            <a href="#aboutMeId">
+              <span className="icon">
+                <BsFillPersonFill />
+              </span>
+              <span className="title">Om meg</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contactId">
+              <span className="icon">
+                <AiOutlineMail />
+              </span>
+              <span className="title">Contact</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ole994/">
+              <span className="icon">
+                <FaFacebook />
+              </span>
+              <span className="title">Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Ole994">
+              <span className="icon">
+                <AiFillGithub></AiFillGithub>
+              </span>
+              <span className="title">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ole-korvald/">
+              <span className="icon">
+                <AiFillLinkedin></AiFillLinkedin>
+              </span>
+              <span className="title">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ole994/">
+              <span className="icon">
+                <BsInstagram></BsInstagram>
+              </span>
+              <span className="title">Instagram</span>
+            </a>
           </li>
         </ul>
       </div>{" "}

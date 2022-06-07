@@ -2,7 +2,7 @@
   background-color: white;
   h1 {
     text-align: center;
-    color: white;
+    color: black;
   }
   h2 {
     color: black;
@@ -15,16 +15,16 @@
   gap: 80px;
   width: 90%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .headerWork {
-  margin-top: 20px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   h1 {
-    color: white;
+    color: black;
   }
 }
 .cardOne {
@@ -53,5 +53,13 @@
 }
 .workButton {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
