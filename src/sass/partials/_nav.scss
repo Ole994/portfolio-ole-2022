@@ -93,9 +93,6 @@ li {
   font-size: 24px;
   color: #fff;
 }
-.navigation-mobile {
-  display: none;
-}
 
 .toggle:hover:before {
   // content: "\f00d";
@@ -105,14 +102,25 @@ li {
   // .navigation-mobile {
   //   display: block;
   //   position: fixed;
-
+  .hamburger-icon {
+    color: red;
+    font-size: 20px;
+    z-index: 9999999;
+  }
+  .navigation:hover {
+    max-width: 50%;
+  }
   //   background-color: #0cc9a9;
   //   width: 100%;
   // }
   .navigation {
-    width: 250px;
-    left: -250px;
+    left: 2px;
+    top: 44px;
     z-index: 9;
+  }
+
+  li {
+    font-size: 20px;
   }
   .title {
     color: white;
