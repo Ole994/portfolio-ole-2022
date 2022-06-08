@@ -27,8 +27,6 @@ const Works = () => {
                   høyttalere og tv-er. Kvalitetene er av høy standard og er
                   tenkt til de som virkelig er interessert i lyd og bilde, samt
                   er villig til å betale litt ekstra for det.
-                  <br /> <br /> Dette var en skoleoppgave vi fikk gjøre før jul
-                  2021, og vi hadde 5 uker på oss til å levere.
                 </p>
               </div>
               <div className="workButton">

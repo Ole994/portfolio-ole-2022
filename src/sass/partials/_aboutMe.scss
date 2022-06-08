@@ -1,14 +1,68 @@
-.aboutMeWrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 200px;
+.aboutMe {
+  margin-top: 80px;
+}
 
+.aboutMeWrapper {
+  display: flex;
+  flex-direction: column;
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // gap: 30px;
   width: 100%;
+}
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutMeImg {
   width: 100%;
 }
+.aboutMeImgText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutName {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
-@media screen and (min-width: 956px) {
+  span {
+    color: #0cc9a9;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+.myName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 20px;
+}
+.ojk {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1000px) {
+  .aboutMeImgBox {
+    padding-left: 0px;
+  }
+
+  .aboutName {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMeImg {
+  }
+  .aboutMeWrapper {
+    flex-direction: row;
+  }
 }
