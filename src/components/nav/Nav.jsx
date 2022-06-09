@@ -17,21 +17,18 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-  // const [auth, setAuth] = useContext(AuthContext);
-  // const navigate = useNavigate();
+
   return (
     <>
       {" "}
-      {/* desktop */}{" "}
       <GiHamburgerMenu
         className="hamburger-icon"
         onClick={() => {
-          console.debug("helllooo");
           setIsNavExpanded(!isNavExpanded);
         }}
-      />
-      <div className="navigation">
-        {isNavExpanded && (
+      />{" "}
+      {isNavExpanded && (
+        <div className="navigation">
           <ul>
             <li>
               <a href="#homeId">
@@ -99,9 +96,8 @@ const Nav = () => {
               </a>
             </li>
           </ul>
-        )}
-      </div>{" "}
-      )
+        </div>
+      )}{" "}
     </>
   );
 };
