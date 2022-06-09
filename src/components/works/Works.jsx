@@ -29,7 +29,7 @@ const Works = () => {
                   er villig til å betale litt ekstra for det.
                 </p>
               </div>
-              <div className="workButton">
+              <div className="workButtonOne">
                 {" "}
                 <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-Ole994">
                   <Button className="buttonComponent" />
@@ -48,14 +48,15 @@ const Works = () => {
                   Her skulle vi lage et api for å hente ut data på nettsiden, og
                   vise at vi blant annet kunne lage en login side som skulle ta
                   brukeren videre til en admin side. Prosjektet er under
-                  utvikling, og er ikke fullstendig designet eller på noe vis
-                  komplett.
+                  utvikling.
+                  {/* og er ikke fullstendig designet eller på noe vis
+                  komplett.  */}
                 </p>
-              </div>
-              <div className="workButton">
-                <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">
-                  <Button />
-                </a>
+                <div className="workButtonTwo">
+                  <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">
+                    <Button />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -78,7 +79,7 @@ const Works = () => {
                   omnis nobis harum quae quod eveniet!
                 </p>
               </div>
-              <div className="workButton">
+              <div className="workButtonThree">
                 <a href="https://github.com/Ole994/semesterProjectWinter">
                   <Button />
                 </a>

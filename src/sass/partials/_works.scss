@@ -29,10 +29,11 @@
 }
 .cardOne {
   //   border: 1px solid black;
-  height: 82vh;
+  height: 65vh;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: white;
 }
+
 .imageContainerOne {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   height: 30vh;
@@ -51,12 +52,10 @@
     padding: 20px;
   }
 }
-.workButton {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
+.workButtonTwo {
+  margin-top: 5%;
 }
+
 .button-container {
   display: flex;
   flex-direction: column;

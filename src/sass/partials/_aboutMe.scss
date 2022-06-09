@@ -1,13 +1,15 @@
 .aboutMe {
   margin-top: 80px;
-  width: 100%;
-  height: 50vh;
+  background-color: #0cc9ab;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .aboutMeWrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .about-header {
   display: flex;
@@ -16,7 +18,9 @@
 }
 
 .aboutMeImg {
-  width: 100%;
+  width: 80%;
+  border: 10px;
+  border-radius: 200px;
 }
 .aboutMeImgText {
   display: flex;
@@ -25,11 +29,11 @@
   flex-direction: column;
 }
 .aboutName {
-  margin-top: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   // justify-content: center;
-  background-color: rgba(145, 140, 140, 0.247);
+  background-color: rgba(255, 255, 255, 0.637);
 
   span {
     color: #0cc9a9;
@@ -51,14 +55,32 @@
   font-size: 25px;
 }
 .aboutMeImgBox {
-  background-color: rgba(145, 140, 140, 0.247);
+  // background-color: rgba(145, 140, 140, 0.247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+@media screen and (min-width: 1000px) {
+  .aboutMeImgBox {
+  }
+  .aboutMeImg {
+    height: 60vh;
+  }
+}
+
 @media screen and (min-width: 1500px) {
+  .aboutMeWrapper {
+  }
+
   .aboutMeImgBox {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    width: 50%;
+  }
+  .aboutMeImg {
+    width: 100%;
   }
 
   .aboutName {
