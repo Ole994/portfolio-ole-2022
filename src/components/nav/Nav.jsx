@@ -16,7 +16,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 //Mobile
 
 const Nav = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(true);
 
   return (
     <>

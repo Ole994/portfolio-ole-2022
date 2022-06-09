@@ -1,14 +1,12 @@
 .profileContainer {
   border: 1px solid black;
-  height: 120vh;
+  height: 110vh;
   background-image: linear-gradient(
       rgba(108, 169, 124, 0.111),
       rgba(0, 0, 0, 0.353)
     ),
     url(../../images/profile-black.jpeg);
-
   background-position: center;
-
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -43,7 +41,6 @@
   display: flex;
   justify-content: center;
   margin-top: 60px;
-  // max-width: 50%;
 
   h1 {
     text-align: center;
@@ -62,6 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .profileText {
   display: flex;
@@ -70,11 +68,18 @@
   p {
     color: #0cc9ab;
 
-    padding: 30px;
+    padding: 5%;
+    margin-left: 10px;
+    max-width: 100%;
   }
 }
 .profileImg {
   max-width: 300px;
+}
+.imgProfileBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1000px) {
@@ -89,6 +94,12 @@
 
   .profileContainer {
     height: 100vh;
+  }
+  .imgProfileBox {
+    width: 50%;
+    padding: 20px;
+  }
+  .alignHeaderText {
   }
 }
 
@@ -106,21 +117,3 @@
     line-height: 25px;
   }
 }
-
-// .headerProfile {
-//   padding: 0;
-// }
-
-// .profileText {
-//   justify-content: center;
-
-//   p {
-//     font-size: 20px;
-//     line-height: 40px;
-//     width: 80%;
-//   }
-// }
-// .alignHeaderText {
-//   padding-top: 100px;
-//   max-width: 60%;
-// }
