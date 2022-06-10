@@ -3,7 +3,6 @@ import secoundWork from "../../images/Skjermbilde-ca-framework.jpg";
 import thirdWork from "../../images/bergen.jpg";
 
 import Button from "../button/Button";
-import { AiFillGithub } from "react-icons/ai";
 
 const Works = () => {
   return (
@@ -49,8 +48,6 @@ const Works = () => {
                   vise at vi blant annet kunne lage en login side som skulle ta
                   brukeren videre til en admin side. Prosjektet er under
                   utvikling.
-                  {/* og er ikke fullstendig designet eller på noe vis
-                  komplett.  */}
                 </p>
                 <div className="workButtonTwo">
                   <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">
@@ -73,10 +70,11 @@ const Works = () => {
 
               <div className="WorkDescription">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi asperiores libero nam cumque rerum mollitia dolores
-                  assumenda eveniet at odio. Obcaecati deserunt eaque quidem
-                  omnis nobis harum quae quod eveniet!
+                  Holidaze er en hotellbookingside hvor man kan booke hotellrom
+                  på mange hoteller i Bergen. Det er mulig på siden å sende inn
+                  meldinger som man i tillegg til hotellbookingene kan se og
+                  slette hvis ønskelig. For å gjøre dette må man være logget inn
+                  med brukernavn og passord.{" "}
                 </p>
               </div>
               <div className="workButtonThree">

@@ -13,7 +13,6 @@ const Profile = () => {
               <h1 className="">FRONT-END </h1>
               <span className="utvikler">UTVIKLER</span>
             </div>
-
             <div className="profileText">
               <p>
                 Hei! Mitt navn er Ole. Jeg bor i Bergen og har akkurat fullført

@@ -21,21 +21,22 @@ const Intro = () => {
               </p>
             </div>
             <p className="description">
-              Jeg er som nevnt over en nyutdannet Frontend utvikler og har tatt
-              min utdanning på Noroff Fagskole i Bergen, og har blant hatt
-              Javascript, HTML, CSS/SCSS og React som en del av pensum. Dette
-              studie har vært gøy, spennende og lærerikt, og har gitt meg
-              innsikt i hvordan jeg kan være med å bidra i den teknologiske
-              utviklingen. <br /> <br /> Jeg gleder meg til å få praktisere
-              dette og til å utvikle meg videre innen dette området. Før jeg
-              startet på Noroff, har jeg tatt PT utdanning og årsstudie innen
-              idrett, og jeg har jobbet med salg og kundebehandling. Dette har
-              jeg trivdes veldig godt med, men har etter hvert blitt mer og mer
-              interessert i teknologi og utvikling, og har derfor valgt å satse
-              på dette. <br /> <br /> Jeg ønsker gjennom denne portfolioen å
-              vise noe av det jeg kan innen koding og programmering, og
-              forhåpentligvis nå ut til potensielle arbeidsgivere som finner
-              denne nettsiden attraktiv.
+              eg er nyutdannet Frontend-utvikler og har tatt utdanning ved
+              Noroff Fagskole i Bergen. Her har jeg blant annet hatt Javascript,
+              HTML, CSS/SCSS og React som pensum. Dette studie har vært
+              interessant og lærerikt, og har gitt meg innsikt i et spennende
+              område som jeg ønsker å videreutvikle meg innen.
+              <br />
+              <br />
+              Jeg gleder meg til å praktisere dette og til å utvikle meg videre.
+              Jeg har tidligere tatt PT utdanning og årsstudie innen idrett, og
+              jeg har jobbet med salg og kundebehandling. Dette har jeg trivdes
+              veldig godt med, men er etter hvert blitt mer og mer interessert i
+              teknologi. Jeg har derfor valgt å satse på dette. <br />
+              <br /> Jeg ønsker gjennom denne portfolien å vise noe av det jeg
+              har lært innen koding og programmering, og forhåpentligvis nå ut
+              til potensielle arbeidsgivere som finner denne nettsiden
+              attraktiv.
             </p>
           </div>
         </div>

@@ -1,7 +1,5 @@
 .aboutMe {
   margin-top: 80px;
-  background-color: #0cc9ab;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .aboutMeWrapper {
@@ -18,9 +16,8 @@
 }
 
 .aboutMeImg {
-  width: 80%;
+  width: 100%;
   border: 10px;
-  border-radius: 200px;
 }
 .aboutMeImgText {
   display: flex;
@@ -33,7 +30,7 @@
   display: flex;
   flex-direction: column;
   // justify-content: center;
-  background-color: rgba(255, 255, 255, 0.637);
+  background-color: rgba(92, 240, 134, 0.413);
 
   span {
     color: #0cc9a9;
@@ -47,22 +44,29 @@
   align-items: flex-start;
   margin-top: 20px;
 }
-
-.description {
-  margin-top: 20px;
-}
 .ojk {
   font-size: 25px;
 }
+.description {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 .aboutMeImgBox {
-  // background-color: rgba(145, 140, 140, 0.247);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+@media screen and (min-width: 500px) {
+  .aboutMeImgBox {
+  }
+  .aboutMeImg {
+  }
+}
 @media screen and (min-width: 1000px) {
   .aboutMeImgBox {
+    width: 50%;
   }
   .aboutMeImg {
     height: 60vh;
@@ -78,8 +82,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 50vh;
   }
   .aboutMeImg {
+    width: 100%;
     width: 100%;
   }
 
@@ -94,7 +100,7 @@
     }
   }
   .aboutMeImg {
-    width: 80%;
+    width: 100%;
   }
   .aboutMeWrapper {
     flex-direction: row;

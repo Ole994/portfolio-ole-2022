@@ -1,6 +1,6 @@
 .profileContainer {
   border: 1px solid black;
-  height: 120vh;
+  height: 140vh;
   background-image: linear-gradient(
       rgba(108, 169, 124, 0.111),
       rgba(0, 0, 0, 0.353)
@@ -9,6 +9,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .profileWrapper {
@@ -29,15 +30,13 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  h1 {
-    line-height: 40px;
-  }
 
   h1 {
     color: #0cc9ab;
     text-align: center;
     width: 60%;
     margin-top: 40px;
+    line-height: 40px;
   }
 }
 .headerProfile {
@@ -60,13 +59,6 @@
     max-width: 50%;
   }
 }
-
-.imgProfileBox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
 .profileText {
   display: flex;
   justify-content: center;
@@ -80,9 +72,17 @@
     max-width: 100%;
   }
 }
+.imgProfileBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+}
 .profileImg {
   max-width: 300px;
+  height: 300px;
 }
+
 .imgProfileBox {
   display: flex;
   justify-content: center;
@@ -90,9 +90,19 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .firstHeader {
+    margin-top: 0;
+    h1 {
+      margin-top: 70px;
+    }
+  }
   .profileWrapper {
     flex-direction: row;
     margin-top: 30vh;
+    margin-top: 15vh;
+  }
+  .profileContainer {
+    height: 100vh;
   }
   .headerProfile {
     display: flex;
@@ -133,6 +143,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .firstHeader {
+    h1 {
+      font-size: 35px;
+    }
+  }
   .alignHeaderText {
     display: flex;
     justify-content: center;
@@ -154,7 +169,7 @@
     width: 50%;
 
     p {
-      font-size: 35px;
+      font-size: 25px;
       line-height: 70px;
     }
   }

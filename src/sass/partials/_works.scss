@@ -19,19 +19,20 @@
 }
 
 .headerWork {
-  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   h1 {
-    color: black;
+    color: red;
+    font-size: 30px;
+    margin-top: 50px;
   }
 }
 .cardOne {
-  //   border: 1px solid black;
-  height: 65vh;
+  height: 75vh;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: white;
+  margin-top: 20px;
 }
 
 .imageContainerOne {
@@ -41,6 +42,10 @@
 
 .workContainerOne {
   margin-top: 40px;
+
+  h2 {
+    font-size: 25px;
+  }
 }
 
 .workImages {
@@ -50,6 +55,7 @@
 .WorkDescription {
   p {
     padding: 20px;
+    font-size: 20px;
   }
 }
 .workButtonTwo {
@@ -61,4 +67,39 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media screen and (min-width: 750px) {
+}
+@media screen and (min-width: 1500px) {
+  .workContainerOne {
+    font-size: 30px;
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .WorkDescription {
+    p {
+      padding: 20px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .WorkDescription {
+    p {
+      padding: 30px;
+      font-size: 30px;
+      line-height: 70px;
+    }
+  }
+  .workContainerOne {
+    font-size: 40px;
+    h2 {
+      font-size: 40px;
+    }
+  }
 }
