@@ -16,8 +16,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 //Mobile
 
 const Nav = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(true);
-
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <>
       {" "}
@@ -31,16 +30,26 @@ const Nav = () => {
         <div className="navigation">
           <ul>
             <li>
-              <a href="#homeId">
+              <a
+                href="#homeId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <AiFillHome></AiFillHome>
                 </span>
-                <span className="title">Fremside</span>
+                <span className="title">Hjem</span>
               </a>
             </li>
 
             <li>
-              <a href="#worksId">
+              <a
+                href="#worksId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <MdWorkspaces />
                 </span>
@@ -48,7 +57,12 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="#aboutMeId">
+              <a
+                href="#aboutMeId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <BsFillPersonFill />
                 </span>
@@ -56,7 +70,12 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="#contactId">
+              <a
+                href="#contactId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <AiOutlineMail />
                 </span>
@@ -64,15 +83,30 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/ole994/">
-                <span className="icon">
+              <a
+                href="https://www.facebook.com/ole994/"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span
+                  className="icon"
+                  onClick={() => {
+                    setIsNavExpanded(false);
+                  }}
+                >
                   <FaFacebook />
                 </span>
                 <span className="title">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://github.com/Ole994">
+              <a
+                href="https://github.com/Ole994"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <AiFillGithub></AiFillGithub>
                 </span>
@@ -80,7 +114,12 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/ole-korvald/">
+              <a
+                href="https://www.linkedin.com/in/ole-korvald/"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <AiFillLinkedin></AiFillLinkedin>
                 </span>
@@ -88,7 +127,12 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/ole994/">
+              <a
+                href="https://www.instagram.com/ole994/"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
                 <span className="icon">
                   <BsInstagram></BsInstagram>
                 </span>
@@ -98,6 +142,7 @@ const Nav = () => {
           </ul>
         </div>
       )}{" "}
+      {/* desktop */}
     </>
   );
 };

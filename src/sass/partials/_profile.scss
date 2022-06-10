@@ -1,6 +1,6 @@
 .profileContainer {
   border: 1px solid black;
-  height: 110vh;
+  height: 120vh;
   background-image: linear-gradient(
       rgba(108, 169, 124, 0.111),
       rgba(0, 0, 0, 0.353)
@@ -29,6 +29,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  h1 {
+    line-height: 40px;
+  }
 
   h1 {
     color: #0cc9ab;
@@ -45,11 +48,14 @@
   h1 {
     text-align: center;
     color: white;
+    font-size: 32px;
+    line-height: 32px;
   }
-  span {
+  .utvikler {
     color: #0cc9a9;
-    font-size: 30px;
-    margin-top: 5px;
+    font-size: 34px;
+    line-height: 32px;
+
     margin-left: 30px;
     max-width: 50%;
   }
@@ -67,9 +73,10 @@
 
   p {
     color: #0cc9ab;
-
+    font-size: 20px;
     padding: 5%;
     margin-left: 10px;
+    line-height: 50px;
     max-width: 100%;
   }
 }
@@ -86,6 +93,28 @@
   .profileWrapper {
     flex-direction: row;
     margin-top: 30vh;
+  }
+  .headerProfile {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 52px;
+    }
+  }
+  .headerProfile {
+    h1,
+    span {
+      font-size: 42px;
+    }
+  }
+  .profileText {
+    p {
+      font-size: 20px;
+    }
   }
   .profileImg {
     max-width: 700px;
@@ -113,7 +142,27 @@
 
   .profileText {
     width: 50%;
-
     line-height: 25px;
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .profileText {
+    width: 50%;
+
+    p {
+      font-size: 35px;
+      line-height: 70px;
+    }
+  }
+
+  .headerProfile {
+    h1,
+    .utvikler {
+      font-size: 50px;
+    }
   }
 }

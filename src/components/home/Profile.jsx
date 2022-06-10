@@ -5,13 +5,13 @@ const Profile = () => {
     <>
       <div className="profileContainer" id="homeId">
         <div className="firstHeader">
-          <h1>Welkommen til min portfolio nettside</h1>
+          <h1>Velkommen til min portfolio nettside</h1>
         </div>
         <div className="profileWrapper">
           <div className="alignHeaderText">
             <div className="headerProfile">
               <h1 className="">FRONT-END </h1>
-              <span className="">UTVIKLER</span>
+              <span className="utvikler">UTVIKLER</span>
             </div>
 
             <div className="profileText">

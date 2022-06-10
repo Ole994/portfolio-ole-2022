@@ -2,50 +2,49 @@ const Footer = () => {
   return (
     <>
       <div className="footerDiv">
-        <footer class="flex-rw">
-          <ul class="footer-list-top">
+        <footer className="flex-rw">
+          <ul className="footer-list-top">
             <li>
-              <h4 class="footer-list-header">Om meg</h4>
+              <h4 className="footer-list-header">Hobbier</h4>
             </li>
             <li>
               <a
                 href="/promos.html"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
                 itemprop="significantLink"
               >
-                Front- end utvikler
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/job-openings.html"
-                itemprop="significantLink"
-                class="generic-anchor footer-list-anchor"
-              >
-                JOB OPENINGS
+                Trening
               </a>
             </li>
 
             <li>
               <a
                 href="/shop/about-show-schedule"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
                 itemprop="significantLink"
               >
-                EVENTS
+                Sosial
+              </a>
+            </li>
+            <li>
+              <a
+                href="/shop/about-show-schedule"
+                className="generic-anchor footer-list-anchor"
+                itemprop="significantLink"
+              >
+                Musikk
               </a>
             </li>
           </ul>
-          <ul class="footer-list-top">
+          <ul className="footer-list-top">
             <li>
-              <h4 class="footer-list-header">The Gift Selection</h4>
+              <h4 className="footer-list-header">The Gift Selection</h4>
             </li>
 
             <li>
               <a
                 href="/Angels/cat/id/70"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
               >
                 ANGEL FIGURINES
               </a>
@@ -53,7 +52,7 @@ const Footer = () => {
             <li>
               <a
                 href="/Home-Decor/cat/id/64"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
               >
                 HOME DECOR
               </a>
@@ -61,7 +60,7 @@ const Footer = () => {
             <li>
               <a
                 href="/Mugs/cat/id/32"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
               >
                 MUGS
               </a>
@@ -69,34 +68,34 @@ const Footer = () => {
             <li>
               <a
                 href="/Pet-Lover/cat/id/108"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
               >
                 PET LOVER
               </a>
             </li>
           </ul>
-          <ul class="footer-list-top">
+          <ul className="footer-list-top">
             <li id="help">
-              <h4 class="footer-list-header">Please Help Me</h4>
+              <h4 className="footer-list-header">Kontakt informasjon</h4>
             </li>
             <li>
               <a
                 href="/shop/about-contact"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
                 itemprop="significantLink"
               >
-                CONTACT
+                ole@korvald.no
               </a>
             </li>
             <li>
-              <a href="/faq.html" class="generic-anchor footer-list-anchor">
-                FAQ
+              <a href="/faq.html" className="generic-anchor footer-list-anchor">
+                +47 909 66 971
               </a>
             </li>
             <li id="find-a-store">
               <a
                 href="/shop/store-locator"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
                 itemprop="significantLink"
               >
                 STORE LOCATOR
@@ -105,7 +104,7 @@ const Footer = () => {
             <li id="user-registration">
               <a
                 href="/shop/user-registration?URL="
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
                 itemprop="significantLink"
               >
                 NEW USERS
@@ -115,88 +114,87 @@ const Footer = () => {
               <a
                 href="/shop/order-status"
                 itemprop="significantLink"
-                class="generic-anchor footer-list-anchor"
+                className="generic-anchor footer-list-anchor"
               >
                 ORDER STATUS
               </a>
             </li>
           </ul>
-          <section class="footer-social-section flex-rw">
-            <span class="footer-social-overlap footer-social-connect">
-              CONNECT <span class="footer-social-small">with</span> US
+          <section className="footer-social-section flex-rw">
+            <span className="footer-social-overlap footer-social-connect">
+              SOCIAL <span className="footer-social-small">media</span>
             </span>
-            <span class="footer-social-overlap footer-social-icons-wrapper">
+            <span className="footer-social-overlap footer-social-icons-wrapper">
               <a
                 href="https://www.pinterest.com/paviliongift/"
-                class="generic-anchor"
+                className="generic-anchor"
                 target="_blank"
                 title="Pinterest"
                 itemprop="significantLink"
               >
-                <i class="fa fa-pinterest"></i>
+                <i className="fa fa-pinterest"></i>
               </a>
               <a
                 href="https://www.facebook.com/paviliongift"
-                class="generic-anchor"
+                className="generic-anchor"
                 target="_blank"
                 title="Facebook"
                 itemprop="significantLink"
               >
-                <i class="fa fa-facebook"></i>
+                <i className="fa fa-facebook"></i>
               </a>
               <a
                 href="https://twitter.com/PavilionGiftCo"
-                class="generic-anchor"
+                className="generic-anchor"
                 target="_blank"
                 title="Twitter"
-                itemprop="significantLink"
               >
-                <i class="fa fa-twitter"></i>
+                <i className="fa fa-twitter"></i>
               </a>
               <a
                 href="http://instagram.com/paviliongiftcompany"
-                class="generic-anchor"
+                className="generic-anchor"
                 target="_blank"
                 title="Instagram"
                 itemprop="significantLink"
               >
-                <i class="fa fa-instagram"></i>
+                <i className="fa fa-instagram"></i>
               </a>
               <a
                 href="https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg"
-                class="generic-anchor"
+                className="generic-anchor"
                 target="_blank"
                 title="Youtube"
                 itemprop="significantLink"
               >
-                <i class="fa fa-youtube"></i>
+                <i className="fa fa-youtube"></i>
               </a>
               <a
                 href="https://plus.google.com/+Paviliongift/posts"
-                class="generic-anchor"
+                className="generic-anchor"
                 target="_blank"
                 title="Google Plus"
                 itemprop="significantLink"
               >
-                <i class="fa fa-google-plus"></i>
+                <i className="fa fa-google-plus"></i>
               </a>
             </span>
           </section>
-          <section class="footer-bottom-section flex-rw">
-            <div class="footer-bottom-wrapper">
-              <i class="fa fa-copyright" role="copyright"></i> 2019 Pavilion in{" "}
-              <address class="footer-address" role="company address">
-                Bergen, NY
+          <section className="footer-bottom-section flex-rw">
+            <div className="footer-bottom-wrapper">
+              <i className="fa fa-copyright" role="copyright"></i> 2022{" "}
+              <address className="footer-address" role="company address">
+                Bergen,
               </address>
-              <span class="footer-bottom-rights">
+              <span className="footer-bottom-rights">
                 {" "}
                 - All Rights Reserved -{" "}
               </span>
             </div>
-            <div class="footer-bottom-wrapper">
+            <div className="footer-bottom-wrapper">
               <a
                 href="/terms-of-use.html"
-                class="generic-anchor"
+                className="generic-anchor"
                 rel="nofollow"
               >
                 Terms
@@ -204,7 +202,7 @@ const Footer = () => {
               |{" "}
               <a
                 href="/privacy-policy.html"
-                class="generic-anchor"
+                className="generic-anchor"
                 rel="nofollow"
               >
                 Privacy
