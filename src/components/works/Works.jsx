@@ -27,12 +27,13 @@ const Works = () => {
                   tenkt til de som virkelig er interessert i lyd og bilde, samt
                   er villig til å betale litt ekstra for det.
                 </p>
-              </div>
-              <div className="workButtonOne">
-                {" "}
-                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-Ole994">
-                  <Button className="buttonComponent" />
-                </a>
+
+                <div className="workButtonOne">
+                  {" "}
+                  <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-Ole994">
+                    <Button className="buttonComponent" />
+                  </a>{" "}
+                </div>
               </div>
             </div>{" "}
           </div>
@@ -76,11 +77,12 @@ const Works = () => {
                   slette hvis ønskelig. For å gjøre dette må man være logget inn
                   med brukernavn og passord.{" "}
                 </p>
-              </div>
-              <div className="workButtonThree">
-                <a href="https://github.com/Ole994/semesterProjectWinter">
-                  <Button />
-                </a>
+
+                <div className="workButtonThree">
+                  <a href="https://github.com/Ole994/semesterProjectWinter">
+                    <Button className="workButton" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

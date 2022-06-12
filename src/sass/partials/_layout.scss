@@ -7,7 +7,9 @@
 @import "button";
 @import "footer";
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Inconsolata:wght@300&display=swap");
-
+:root {
+  --lite: #f8f9fa;
+}
 body {
   position: relative;
 }
