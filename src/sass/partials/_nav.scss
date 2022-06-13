@@ -76,7 +76,6 @@ li {
 }
 
 .toggle:before {
-  //content: "\f0c9";
   position: absolute;
   line-height: 60px;
   text-align: center;
@@ -84,15 +83,6 @@ li {
   color: #fff;
 }
 
-.toggle:hover:before {
-  // content: "\f00d";
-}
-.hamburger-icon {
-}
-
-.navigation-mobile {
-  display: none;
-}
 .hamburger-icon {
   display: none;
 }
@@ -100,7 +90,7 @@ li {
 @media screen and (max-width: 900px) {
   .hamburger-icon {
     color: white;
-    background-color: green;
+    background-color: #0cc9a9;
     font-size: 30px;
     z-index: 9999999;
     position: fixed;

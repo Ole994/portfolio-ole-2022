@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <div className="footerDiv">
         <footer>
-          <div class="footer">
+          <div className="footer">
             <section>
               <h3>Svar og spørsmål</h3>
               <p>
@@ -43,14 +43,14 @@ const Footer = () => {
               </a>
               <a href="+ 47 909 66 971">
                 <span>
-                  <i class="fa fa-phone"></i>
+                  <i className="fa fa-phone"></i>
                 </span>
                 <span>+ 47 909 66 971</span>
               </a>
             </section>
           </div>
         </footer>
-        <div class="sub-footer">
+        <div className="sub-footer">
           Copyright ©2022 Alle rettigheter reservert | Ole Jørgen Korvald
         </div>
       </div>

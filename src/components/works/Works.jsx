@@ -57,6 +57,9 @@ const Works = () => {
                     under utvikling, og er ikke fullstendig designet eller på
                     noe vis komplett.
                   </p>
+                  <a href="">
+                    <p>Her kan du se live versjon av oppgaven</p>
+                  </a>
                 </div>
                 <div className="workButton">
                   <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">
@@ -76,13 +79,15 @@ const Works = () => {
               <div className="flexButtonText">
                 <div className="WorkDescription">
                   <p>
-                    Hifi-Club er en tenkt nettside til en butikk som selger
-                    høyttalere og tv-er. Kvalitetene er av høy standard og er
-                    tenkt til de som virkelig er interessert i lyd og bilde,
-                    samt er villig til å betale litt ekstra for det.
-                    <br /> <br /> Dette var en skoleoppgave vi fikk gjøre før
-                    jul 2021, og vi hadde 5 uker på oss til å levere.
+                    Holidaze er en hotellbookingside hvor man kan booke
+                    hotellrom på mange hoteller i Bergen. Det er mulig på siden
+                    å sende inn meldinger som man i tillegg til hotellbookingene
+                    kan se og slette hvis ønskelig. For å gjøre dette må man
+                    være logget inn med brukernavn og passord.{" "}
                   </p>
+                  <a href="https://idyllic-florentine-63f2fd.netlify.app/?fbclid=IwAR3tS_kABVJjvXs7D4T0E5D9VSIybSf40WD34elyMgvYOhOkQcaWM3lqPUc">
+                    <p>Her kan du se live versjon av oppgaven</p>
+                  </a>
                 </div>
                 <div className="workButton">
                   <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">

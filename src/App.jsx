@@ -10,7 +10,6 @@ import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Works from "./components/works/Works";
 import AboutMe from "./components/aboutMe/AboutMe";
-import Timeline from "./components/timeine/Timeline";
 
 //pages
 
@@ -24,7 +23,7 @@ const App = () => {
           <Profile />
           <Works />
           <AboutMe />
-          <Timeline />
+
           <Footer />
         </div>
       </div>

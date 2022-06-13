@@ -11,9 +11,6 @@ const Intro = () => {
 
         <div className="aboutMeImgText">
           {" "}
-          {/* <div className="about-header">
-            <h1>About me</h1>
-          </div> */}
           <div className="aboutName">
             <div className="myName">
               <p className="ojk">
@@ -21,9 +18,9 @@ const Intro = () => {
               </p>
             </div>
             <p className="description">
-              eg er nyutdannet Frontend-utvikler og har tatt utdanning ved
-              Noroff Fagskole i Bergen. Her har jeg blant annet hatt Javascript,
-              HTML, CSS/SCSS og React som pensum. Dette studie har vært
+              Jeg er en nyutdannet Frontend-utvikler og har tatt utdanningen min
+              ved Noroff Fagskole i Bergen. Her har jeg blant annet hatt HTML,
+              CSS/SCSS Javascript og React som pensum. Dette studiet har vært
               interessant og lærerikt, og har gitt meg innsikt i et spennende
               område som jeg ønsker å videreutvikle meg innen.
               <br />

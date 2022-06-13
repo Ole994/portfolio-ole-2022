@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 2000px) {
   .aboutMeWrapper {
   }
 
@@ -84,10 +84,6 @@
     align-items: center;
     height: 50vh;
   }
-  .aboutMeImg {
-    width: 100%;
-    width: 100%;
-  }
 
   .aboutName {
     display: flex;
@@ -95,12 +91,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
+
     p {
       padding: 20px;
     }
   }
   .aboutMeImg {
     width: 100%;
+    height: 700px;
   }
   .aboutMeWrapper {
     flex-direction: row;

@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import {
   AiFillHome,
   AiOutlineMail,
@@ -17,6 +15,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
     <>
       {" "}
@@ -142,7 +141,122 @@ const Nav = () => {
           </ul>
         </div>
       )}{" "}
-      {/* desktop */}
+      {/* desktop */}{" "}
+      {/* {isDesktopExpanded && (
+        <div className="navigation">
+          <ul>
+            <li>
+              <a
+                href="#homeId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <AiFillHome></AiFillHome>
+                </span>
+                <span className="title">Hjem</span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#worksId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <MdWorkspaces />
+                </span>
+                <span className="title">Mitt arbeid</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#aboutMeId"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <BsFillPersonFill />
+                </span>
+                <span className="title">Om meg</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#timeline"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <AiOutlineMail />
+                </span>
+                <span className="title">Timeline</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/ole994/"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span
+                  className="icon"
+                  onClick={() => {
+                    setIsNavExpanded(false);
+                  }}
+                >
+                  <FaFacebook />
+                </span>
+                <span className="title">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Ole994"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <AiFillGithub></AiFillGithub>
+                </span>
+                <span className="title">Github</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ole-korvald/"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <AiFillLinkedin></AiFillLinkedin>
+                </span>
+                <span className="title">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/ole994/"
+                onClick={() => {
+                  setIsNavExpanded(false);
+                }}
+              >
+                <span className="icon">
+                  <BsInstagram></BsInstagram>
+                </span>
+                <span className="title">Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div> */}
     </>
   );
 };
