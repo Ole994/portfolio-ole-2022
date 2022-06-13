@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <>
       <div className="button-container">
-        <span className="cross-fade">GitHub</span>
+        <p className="cross-fade">GitHub</p>
       </div>
     </>
   );

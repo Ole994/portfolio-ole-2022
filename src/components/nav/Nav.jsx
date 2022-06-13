@@ -71,7 +71,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="#contactId"
+                href="#timeline"
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
@@ -79,7 +79,7 @@ const Nav = () => {
                 <span className="icon">
                   <AiOutlineMail />
                 </span>
-                <span className="title">Contact</span>
+                <span className="title">Timeline</span>
               </a>
             </li>
             <li>

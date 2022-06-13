@@ -43,7 +43,7 @@ li {
   display: block;
   min-width: 100px;
   height: 60px;
-  line-height: 60px;
+  line-height: 40px;
   text-align: center;
   font-size: 44px;
   color: rgb(238, 238, 238);
@@ -53,8 +53,8 @@ li {
   position: relative;
   display: block;
   // padding: 0 10px;
-  height: 60px;
-  line-height: 60px;
+  height: 40px;
+  line-height: 40px;
   text-align: start;
   white-space: nowrap;
   color: white;
@@ -114,7 +114,7 @@ li {
     width: 60%;
 
     li {
-      margin-top: 50px;
+      margin-top: 40px;
     }
     z-index: 9;
   }
@@ -123,7 +123,7 @@ li {
     font-size: 16px;
 
     padding: 0;
-    height: 40px;
+    height: 30px;
   }
   .title {
     color: white;

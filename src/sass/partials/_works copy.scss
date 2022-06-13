@@ -23,16 +23,20 @@
   justify-content: center;
   align-items: center;
   h1 {
-    color: red;
+    color: #0cc9a9;
     font-size: 30px;
     margin-top: 50px;
   }
 }
+
+.headerWork {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
 .cardOne {
-  // height: 800px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: white;
   margin-top: 20px;
+  height: 600px;
 }
 
 .imageContainerOne {
@@ -41,37 +45,42 @@
 }
 
 .workContainerOne {
-  margin-top: 40px;
-
   h2 {
     font-size: 25px;
   }
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
-.workButton {
-  margin-bottom: 20px;
-}
+
 .workImages {
   width: 100%;
   height: 100%;
 }
-.WorkDescription {
+
+.flexbuttonText {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.WorkDescription {
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  height: 350px;
 
   p {
     padding: 20px;
     font-size: 20px;
   }
 }
-.flexButtonText {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+
+.workButton {
 }
-.button-container .workButtonOne,
+.workButtonOne,
 .workButtonTwo,
 .workButtonThree {
   display: flex;
@@ -88,29 +97,14 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 750px) {
-  .WorkDescription {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    height: 500px;
-
-    p {
-      padding: 20px;
-      font-size: 20px;
-    }
+  .cardOne {
+    height: 800px;
   }
 }
-
-@media screen and (min-width: 1000px) {
-  .WorkDescription {
-    height: 500px;
-  }
-}
-
 @media screen and (min-width: 1500px) {
   .workContainerOne {
     font-size: 30px;
@@ -120,12 +114,20 @@
   }
 
   .WorkDescription {
-    height: 700px;
     p {
       padding: 20px;
       font-size: 20px;
       line-height: 30px;
     }
+  }
+
+  .headerWork {
+    h1 {
+      color: #0cc9a9;
+      font-size: 40px;
+    }
+  }
+  .cardOne {
   }
 }
 
@@ -142,5 +144,10 @@
     h2 {
       font-size: 40px;
     }
+  }
+  .cardOne {
+  }
+  .WorkDescription {
+    height: 80vh;
   }
 }
