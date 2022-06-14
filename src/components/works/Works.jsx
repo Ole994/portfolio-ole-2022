@@ -1,7 +1,6 @@
 import firstWork from "../../images/high-end.jpg";
 import secoundWork from "../../images/Skjermbilde-ca-framework.jpg";
 import thirdWork from "../../images/bergen.jpg";
-import Button from "../button/Button";
 
 const Works = () => {
   return (
@@ -13,7 +12,7 @@ const Works = () => {
       <div className="works" id="worksId">
         <div className="work-wrap">
           {" "}
-          <div className="workContainerOne">
+          <div className="workContainer">
             <h2>Prosjekt High-end Club</h2>
             <div className="cardOne">
               <div className="imageContainerOne">
@@ -27,29 +26,31 @@ const Works = () => {
                     tenkt til de som virkelig er interessert i lyd og bilde,
                     samt er villig til å betale litt ekstra for det.
                   </p>
-                  <a href="">
-                    <p>
-                      Nettsiden er ikke live enda da den fortsatt er under
-                      utvikling.
-                    </p>
-                  </a>
                 </div>
                 <div className="workButton">
                   {" "}
-                  <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-Ole994">
-                    <Button className="buttonComponent" />
+                  <a
+                    href="https://github.com/Ole994/semesterProjectWinter"
+                    className="cross-fade"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://tranquil-stroopwafel-744af4.netlify.app/"
+                    className="cross-fade"
+                  >
+                    Live
                   </a>
                 </div>
               </div>
-            </div>{" "}
-          </div>
-          <div className="workContainerOne">
+            </div>
+          </div>{" "}
+          <div className="workContainer">
             <h2>Prosjekt Anatomi</h2>
             <div className="cardOne">
               <div className="imageContainerOne">
                 <img src={secoundWork} alt="" className="workImages" />
-              </div>
-
+              </div>{" "}
               <div className="flexButtonText">
                 <div className="WorkDescription">
                   <p>
@@ -59,25 +60,32 @@ const Works = () => {
                     under utvikling, og er ikke fullstendig designet eller på
                     noe vis komplett.
                   </p>
-                  <a href="https://stellular-scone-57fcd3.netlify.app/">
-                    <p>Her kan du se live versjon av oppgaven</p>
-                  </a>
                 </div>
                 <div className="workButton">
-                  <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">
-                    <Button />
+                  {" "}
+                  <a
+                    href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994"
+                    className="cross-fade"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://stellular-scone-57fcd3.netlify.app/"
+                    className="cross-fade"
+                  >
+                    Live
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="workContainerOne">
-            <h2>Prosjekt hotellbooking</h2>
+          {""}
+          <div className="workContainer">
+            <h2>Prosjekt Holidaze</h2>
             <div className="cardOne">
               <div className="imageContainerOne">
                 <img src={thirdWork} alt="" className="workImages" />
-              </div>
-
+              </div>{" "}
               <div className="flexButtonText">
                 <div className="WorkDescription">
                   <p>
@@ -85,20 +93,28 @@ const Works = () => {
                     hotellrom på mange hoteller i Bergen. Det er mulig på siden
                     å sende inn meldinger som man i tillegg til hotellbookingene
                     kan se og slette hvis ønskelig. For å gjøre dette må man
-                    være logget inn med brukernavn og passord.{" "}
+                    være logget inn med brukernavn og passord.
                   </p>
-                  <a href="https://idyllic-florentine-63f2fd.netlify.app/?fbclid=IwAR3tS_kABVJjvXs7D4T0E5D9VSIybSf40WD34elyMgvYOhOkQcaWM3lqPUc">
-                    <p>Her kan du se live versjon av oppgaven</p>
-                  </a>
                 </div>
                 <div className="workButton">
-                  <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Ole994">
-                    <Button />
+                  {" "}
+                  <a
+                    href="https://github.com/Noroff-FEU-Assignments/project-exam-2-Ole994"
+                    className="cross-fade"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://idyllic-florentine-63f2fd.netlify.app/?fbclid=IwAR0TmuVyKHMlVR_nzdPKXpc4GMSrrj9HMkj0452uFYu94BtrQkHlj9IQwq8"
+                    className="cross-fade"
+                  >
+                    Live
                   </a>
                 </div>
               </div>
             </div>
           </div>
+          {""}
         </div>
       </div>
     </>

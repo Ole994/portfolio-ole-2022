@@ -7,6 +7,9 @@ const Button = () => {
       <div className="button-container">
         <p className="cross-fade">GitHub</p>
       </div>
+      <div className="button-container">
+        <p className="cross-fade">GitHub</p>
+      </div>
     </>
   );
 };
