@@ -4,7 +4,7 @@ a {
   outline: none !important;
 }
 
-p {
+span {
   letter-spacing: 0.08em;
   line-height: 1.8em;
 }
@@ -13,28 +13,34 @@ p {
 .footer {
   p {
     color: white;
+    line-height: 30px;
   }
-  background-color: #39615bbb;
+  background-color: #3e4f4f;
   width: 100%;
   display: flex;
   align-items: top;
   padding: 5rem 0;
   h3 {
     color: #0cc9ab;
-    font-size: 30px;
+    font-size: 25px;
   }
   span {
     color: white;
+    display: flex;
   }
 }
 
-.footer section {
+.footer .footerSection {
   padding: 1rem 2rem;
   width: 100%;
   vertical-align: top;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer section a {
+.footer .footerSection span {
   color: white;
   display: flex;
   align-items: center;
@@ -44,37 +50,45 @@ p {
   line-height: 20px;
 }
 
-.footer section a:hover {
+.footer .footerSection span:hover {
   color: #0cc9a9;
 }
 
-.footer section:nth-child(2) a:before,
-.footer section:nth-child(3) a:before {
-  content: "";
+.footer .footerSection:nth-child(2) span:before,
+.footer .footerSsection:nth-child(3) span:before {
+  content: "";
   margin-right: 5px;
 }
 
-.footer section a span {
+.footer .footerSection span span {
   margin: 0 10px;
 }
-
+.footer .footerSection:nth-child(2),
+.footer .footerSection:nth-child(3) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .sub-footer {
   background-color: #142136;
   text-align: Center;
   color: white;
   padding: 1rem 0;
 }
+
 @media (max-width: 1020px) {
   .footer {
     display: block;
   }
-  .footer section {
+  .footer .footerSection {
     padding: 1rem 1rem;
   }
-  .footer section:nth-child(2),
-  .footer section:nth-child(3) {
-    width: 49%;
-    display: inline-block;
+  .footer .footerSection:nth-child(2),
+  .footer .footerSection:nth-child(3) {
+    width: 100%;
+    // display: inline-block;
   }
 }
 @media (min-width: 1200px) {
@@ -86,11 +100,18 @@ p {
       font-size: 25px;
     }
   }
-  .footer section a {
+  .footer .footerSection span {
     font-size: 25px;
   }
 
   .sub-footer {
     font-size: 25px;
+  }
+}
+@media (min-width: 2000px) {
+  footer {
+    span {
+      font-size: 40px;
+    }
   }
 }

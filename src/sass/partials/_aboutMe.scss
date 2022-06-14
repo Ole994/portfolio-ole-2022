@@ -8,12 +8,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 80px;
-
-  // h1 {
-  //   color: white;
-  //   text-align: center;
-  //   font-size: 3;
-  // }
 }
 
 .aboutMeWrapper {
@@ -33,7 +27,7 @@
   max-width: 100%;
   border: 10px;
   border-radius: 8px;
-  height: 300px;
+  height: 400px;
 }
 .aboutMeImgText {
   display: flex;
@@ -80,14 +74,14 @@
   .aboutMeImgBox {
   }
   .aboutMeImg {
+    height: 500px;
   }
 }
 @media screen and (min-width: 1000px) {
   .aboutMeImgBox {
-    width: 50%;
   }
   .aboutMeImg {
-    height: 60vh;
+    height: 900px;
   }
   .aboutMe {
     margin-top: 40px;

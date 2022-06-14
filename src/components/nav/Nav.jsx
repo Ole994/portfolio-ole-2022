@@ -15,14 +15,14 @@ import { useEffect } from "react";
 //Mobile
 
 const Nav = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(true);
   function ScreenSize() {
     const [windowDimension, detectHW] = useState({
-      winWidth: window.innerWidth,
+      minWidth: window.innerWidth,
     });
     const detectSize = () => {
       detectHW({
-        winWidth: window.innerWidth,
+        minWidth: window.innerWidth,
       });
     };
     useEffect(() => {
@@ -31,8 +31,8 @@ const Nav = () => {
         window.removeEventListener("resize", detectSize);
       };
     }, [windowDimension]);
-    if (windowDimension.winWidth <= 900) return setIsNavExpanded(false);
-    if (windowDimension.winWidth >= 900) return setIsNavExpanded(true);
+    if (windowDimension.minWidth <= 900) return setIsNavExpanded(false);
+    if (windowDimension.minWidth >= 900) return setIsNavExpanded(true);
   }
   return (
     <>

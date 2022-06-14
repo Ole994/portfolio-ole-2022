@@ -3,6 +3,8 @@ import {
   AiOutlineMail,
   AiFillGithub,
   AiFillLinkedin,
+  AiFillPhone,
+  GiWeightLiftingUp,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -11,42 +13,86 @@ const Footer = () => {
       <div className="footerDiv">
         <footer>
           <div className="footer">
-            <section>
+            <section className="footerSection">
               <h3>Svar og spørsmål</h3>
               <p>
                 Jeg er som oftest aktiv på sosiale medier, telefon og email, og
                 svarer som regel i løpet av kort tid dersom du vil kontakte meg.
               </p>
             </section>
-            <section>
+            <section className="footerSection">
               <h3>Språk</h3>
-              <a href="#">Norsk</a>
-              <a href="#">Engelsk</a>
-              <a href="#">Spansk</a>
+              <span>
+                {" "}
+                <p>
+                  <AiFillGithub />
+                  Norsk
+                </p>
+              </span>
+              <span>
+                {" "}
+                <p>
+                  <AiFillGithub /> Engelsk
+                </p>
+              </span>
+              <span>
+                {" "}
+                <p>
+                  {" "}
+                  <AiFillGithub />
+                  Spansk
+                </p>
+              </span>
             </section>
             <section>
               <h3>Hobbier</h3>
-              <a href="#">Trening</a>
-              <a href="#">Musikk/ djing</a>
-              <a href="#">Sosialisering</a>
-              <a href="#">Gaming</a>
+              <span>
+                {" "}
+                <p>
+                  <AiFillGithub />
+                  Trening
+                </p>
+              </span>
+              <span>
+                {" "}
+                <p>
+                  <AiFillGithub />
+                  Musikk/ djing
+                </p>
+              </span>
+              <span>
+                {" "}
+                <p>
+                  <AiFillGithub />
+                  Sosialisering
+                </p>
+              </span>
+              <span>
+                {" "}
+                <p>
+                  <AiFillGithub />
+                  Gaming
+                </p>
+              </span>
             </section>
             <section>
-              <h3>Du kan kontakte meg på</h3>
-              <a href="ole@korvald.no">
+              <h3>Kontaktinformasjon</h3>
+              <span href="ole@korvald.no">
+                <p>
+                  <AiOutlineMail />
+                </p>
+
                 <span>
-                  <i>
-                    <AiOutlineMail />
-                  </i>
+                  <p>ole@korvald.no</p>{" "}
                 </span>
-                <span>ole@korvald.no</span>
-              </a>
-              <a href="+ 47 909 66 971">
+              </span>
+              <span href="+ 47 909 66 971">
                 <span>
-                  <i className="fa fa-phone"></i>
+                  <p>
+                    <AiFillPhone />+ 47 909 66 971
+                  </p>{" "}
                 </span>
-                <span>+ 47 909 66 971</span>
-              </a>
+              </span>
             </section>
           </div>
         </footer>

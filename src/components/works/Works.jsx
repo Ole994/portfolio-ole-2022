@@ -6,10 +6,10 @@ const Works = () => {
   return (
     <>
       {" "}
-      <div className="headerWork">
+      <div className="headerWork" id="worksId">
         <h1> Mine prosjekter</h1>
       </div>
-      <div className="works" id="worksId">
+      <div className="works">
         <div className="work-wrap">
           {" "}
           <div className="workContainer">

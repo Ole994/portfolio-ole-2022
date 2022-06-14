@@ -7,7 +7,7 @@ const Intro = () => {
       {/* <h1>Om meg</h1> */}
       <div className="aboutMeWrapper">
         <div className="aboutMeImgBox">
-          <img src={aboutMeImg} alt="" className="aboutMeImg" />
+          <img src={aboutMeImg} alt="about me image" className="aboutMeImg" />
         </div>
 
         <div className="aboutMeImgText">
