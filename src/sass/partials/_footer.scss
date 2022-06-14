@@ -14,7 +14,7 @@ p {
   p {
     color: white;
   }
-  background-color: #39615bbb;
+  background-color: #2b4642e4;
   width: 100%;
   display: flex;
   align-items: top;
@@ -48,9 +48,13 @@ p {
   color: #0cc9a9;
 }
 
+.spanHover:hover {
+  color: #0cc9a9;
+}
+
 .footer section:nth-child(2) a:before,
 .footer section:nth-child(3) a:before {
-  content: "";
+  content: "";
   margin-right: 5px;
 }
 
@@ -59,7 +63,7 @@ p {
 }
 
 .sub-footer {
-  background-color: #142136;
+  background-color: #000000;
   text-align: Center;
   color: white;
   padding: 1rem 0;

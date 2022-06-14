@@ -86,19 +86,7 @@ const Nav = () => {
                 <span className="title">Om meg</span>
               </a>
             </li>
-            <li>
-              <a
-                href="#timeline"
-                onClick={() => {
-                  setIsNavExpanded(false);
-                }}
-              >
-                <span className="icon">
-                  <AiOutlineMail />
-                </span>
-                <span className="title">Timeline</span>
-              </a>
-            </li>
+
             <li>
               <a
                 href="https://www.facebook.com/ole994/"
