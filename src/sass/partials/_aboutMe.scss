@@ -84,11 +84,11 @@
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1400px) {
   .aboutMeImgBox {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+
     align-items: center;
     height: 50vh;
   }
