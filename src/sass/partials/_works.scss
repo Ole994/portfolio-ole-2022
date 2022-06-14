@@ -117,6 +117,11 @@
     height: 350px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .WorkDescription {
+    height: 450px;
+  }
+}
 
 @media screen and (min-width: 1500px) {
   .workContainer {

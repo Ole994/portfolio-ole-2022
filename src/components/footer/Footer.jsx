@@ -16,20 +16,20 @@ const Footer = () => {
             </section>
             <section>
               <h3>Språk</h3>
-              <a href="#">Norsk</a>
-              <a href="#">Engelsk</a>
-              <a href="#">Spansk</a>
+              <a>Norsk</a>
+              <a>Engelsk</a>
+              <a>Spansk</a>
             </section>
             <section>
               <h3>Hobbier</h3>
-              <a href="#">Trening</a>
-              <a href="#">Musikk/ djing</a>
-              <a href="#">Sosialisering</a>
-              <a href="#">Gaming</a>
+              <a>Trening</a>
+              <a>Musikk/ djing</a>
+              <a>Sosialisering</a>
+              <a>Gaming</a>
             </section>
             <section>
               <h3>Du kan kontakte meg på</h3>
-              <a href="#">
+              <a>
                 <span>
                   <i>
                     <AiOutlineMail />
@@ -37,7 +37,7 @@ const Footer = () => {
                 </span>
                 <span className="spanHover">ole@korvald.no</span>
               </a>
-              <a href="#">
+              <a>
                 <span>
                   <i>
                     {" "}

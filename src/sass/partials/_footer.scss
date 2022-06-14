@@ -11,10 +11,13 @@ p {
 
 /*FOOTER*/
 .footer {
+  a {
+    cursor: pointer;
+  }
   p {
     color: white;
   }
-  background-color: #2b4642e4;
+  background-color: #2b4642;
   width: 100%;
   display: flex;
   align-items: top;
@@ -25,6 +28,7 @@ p {
   }
   span {
     color: white;
+    cursor: pointer;
   }
 }
 

@@ -54,11 +54,11 @@ const Works = () => {
               <div className="flexButtonText">
                 <div className="WorkDescription">
                   <p>
-                    Her skulle vi lage et api for å hente ut data på nettsiden,
-                    og vise at vi blant annet kunne lage en login side som
-                    skulle ta brukeren videre til en admin side. Prosjektet er
-                    under utvikling, og er ikke fullstendig designet eller på
-                    noe vis komplett.
+                    På dette skoleprosjektet skulle vi lage et api for å hente
+                    ut data på nettsiden, og vise at vi blant annet kunne lage
+                    en login side som skulle ta brukeren videre til en admin
+                    side. Prosjektet er under utvikling, og er ikke fullstendig
+                    designet eller på noe vis komplett.
                   </p>
                 </div>
                 <div className="workButton">
