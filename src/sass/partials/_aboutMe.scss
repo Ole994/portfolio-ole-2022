@@ -71,15 +71,11 @@
 }
 
 @media screen and (min-width: 500px) {
-  .aboutMeImgBox {
-  }
   .aboutMeImg {
     height: 500px;
   }
 }
 @media screen and (min-width: 1000px) {
-  .aboutMeImgBox {
-  }
   .aboutMeImg {
     height: 900px;
   }
@@ -88,10 +84,7 @@
   }
 }
 
-@media screen and (min-width: 2000px) {
-  .aboutMeWrapper {
-  }
-
+@media screen and (min-width: 1800px) {
   .aboutMeImgBox {
     display: flex;
     flex-direction: column;
