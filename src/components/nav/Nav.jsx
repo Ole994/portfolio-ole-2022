@@ -1,9 +1,4 @@
-import {
-  AiFillHome,
-  AiOutlineMail,
-  AiFillGithub,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillHome, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsFillPersonFill, BsInstagram } from "react-icons/bs";
 import { MdWorkspaces } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
