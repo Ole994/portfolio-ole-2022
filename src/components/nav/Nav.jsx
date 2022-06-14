@@ -10,12 +10,30 @@ import { FaFacebook } from "react-icons/fa";
 import { useState } from "react";
 
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useEffect } from "react";
 
 //Mobile
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-
+  function ScreenSize() {
+    const [windowDimension, detectHW] = useState({
+      winWidth: window.innerWidth,
+    });
+    const detectSize = () => {
+      detectHW({
+        winWidth: window.innerWidth,
+      });
+    };
+    useEffect(() => {
+      window.addEventListener("resize", detectSize);
+      return () => {
+        window.removeEventListener("resize", detectSize);
+      };
+    }, [windowDimension]);
+    if (windowDimension.winWidth <= 900) return setIsNavExpanded(false);
+    if (windowDimension.winWidth >= 900) return setIsNavExpanded(true);
+  }
   return (
     <>
       {" "}

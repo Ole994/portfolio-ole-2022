@@ -4,6 +4,7 @@ import aboutMeImg from "../../images/wood-picture.jpg";
 const Intro = () => {
   return (
     <div className="aboutMe" id="aboutMeId">
+      {/* <h1>Om meg</h1> */}
       <div className="aboutMeWrapper">
         <div className="aboutMeImgBox">
           <img src={aboutMeImg} alt="" className="aboutMeImg" />

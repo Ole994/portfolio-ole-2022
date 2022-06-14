@@ -1,5 +1,19 @@
 .aboutMe {
+  background-image: linear-gradient(
+      rgba(108, 169, 124, 0.007),
+      rgba(0, 0, 0, 0.881)
+    ),
+    url(../../images/adobestockBackground.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 80px;
+
+  // h1 {
+  //   color: white;
+  //   text-align: center;
+  //   font-size: 3;
+  // }
 }
 
 .aboutMeWrapper {
@@ -18,6 +32,7 @@
 .aboutMeImg {
   width: 100%;
   border: 10px;
+  border-radius: 8px;
 }
 .aboutMeImgText {
   display: flex;
@@ -30,10 +45,10 @@
   display: flex;
   flex-direction: column;
 
-  background-color: rgba(92, 240, 134, 0.413);
+  background-color: rgba(0, 0, 0, 0.632);
 
   span {
-    color: #0cc9a9;
+    color: #a7f3e6;
     font-size: 25px;
     font-weight: bold;
   }
@@ -46,10 +61,12 @@
 }
 .ojk {
   font-size: 25px;
+  color: white;
 }
 .description {
   margin-top: 20px;
   font-size: 20px;
+  color: white;
 }
 
 .aboutMeImgBox {
@@ -70,6 +87,9 @@
   }
   .aboutMeImg {
     height: 60vh;
+  }
+  .aboutMe {
+    margin-top: 40px;
   }
 }
 

@@ -1,9 +1,7 @@
 import firstWork from "../../images/high-end.jpg";
 import secoundWork from "../../images/Skjermbilde-ca-framework.jpg";
 import thirdWork from "../../images/bergen.jpg";
-
 import Button from "../button/Button";
-import { AiFillGithub } from "react-icons/ai";
 
 const Works = () => {
   return (
@@ -28,9 +26,13 @@ const Works = () => {
                     høyttalere og tv-er. Kvalitetene er av høy standard og er
                     tenkt til de som virkelig er interessert i lyd og bilde,
                     samt er villig til å betale litt ekstra for det.
-                    <br /> <br /> Dette var en skoleoppgave vi fikk gjøre før
-                    jul 2021, og vi hadde 5 uker på oss til å levere.
                   </p>
+                  <a href="">
+                    <p>
+                      Nettsiden er ikke live enda da den fortsatt er under
+                      utvikling.
+                    </p>
+                  </a>
                 </div>
                 <div className="workButton">
                   {" "}
@@ -57,7 +59,7 @@ const Works = () => {
                     under utvikling, og er ikke fullstendig designet eller på
                     noe vis komplett.
                   </p>
-                  <a href="">
+                  <a href="https://stellular-scone-57fcd3.netlify.app/">
                     <p>Her kan du se live versjon av oppgaven</p>
                   </a>
                 </div>

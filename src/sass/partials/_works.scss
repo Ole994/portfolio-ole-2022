@@ -59,7 +59,7 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  height: 350px;
+  height: 450px;
 
   p {
     padding: 20px;
@@ -90,6 +90,12 @@
   align-items: center;
 }
 
+@media screen and (min-width: 500px) {
+  .WorkDescription {
+    height: 340px;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .WorkDescription {
     display: flex;
@@ -107,7 +113,7 @@
 
 @media screen and (min-width: 1000px) {
   .WorkDescription {
-    height: 500px;
+    height: 450px;
   }
 }
 
